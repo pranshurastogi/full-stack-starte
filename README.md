@@ -49,3 +49,22 @@ Quit psql, return to the terminal
 # \?
 
 ```
+
+
+## Make your first hello world app in flask -
+
+How to install Flask - 
+
+```
+pip3 install flask
+pip3 install flask-sqlalchemy
+
+```
+
+Code is in helloFlask.py file
+
+## How to run your flask application 
+
+```
+FLASK_APP=helloFlask.py flask run
+```
