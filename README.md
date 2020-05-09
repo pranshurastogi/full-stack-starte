@@ -68,3 +68,19 @@ Code is in helloFlask.py file
 ```
 FLASK_APP=helloFlask.py flask run
 ```
+
+## How to connect postgres through python
+
+```
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://pranshu:postgres@localhost:5432/flaskdb'
+
+```
+Here
+
+```
+username = pranshu
+password = postgres
+local address = localhost
+port = 5432
+dbname = flaskdb
+```
