@@ -84,3 +84,13 @@ local address = localhost
 port = 5432
 dbname = flaskdb
 ```
+
+## How to on the debug mode in flask
+
+`FLASK_DEBUG=true`
+
+## SQLAlchemy cheat sheet
+
+https://github.com/crazyguitar/pysheeet/blob/master/docs/notes/python-sqlalchemy.rst#set-a-database-url
+
+
