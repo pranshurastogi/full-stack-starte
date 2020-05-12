@@ -93,4 +93,7 @@ dbname = flaskdb
 
 https://github.com/crazyguitar/pysheeet/blob/master/docs/notes/python-sqlalchemy.rst#set-a-database-url
 
+## Reset your database anytime - 
+
+`dropdb todoapp && createdb todoapp`
 
